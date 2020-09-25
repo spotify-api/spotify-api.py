@@ -46,6 +46,9 @@ track = client.track
 
 ### Functions
 
-| Name      | Params                     | Example                           |
-|-----------|----------------------------|-----------------------------------|
-| search    | `query: str`, `limit: int` | `track.get('some query', 5)       |
+| Name           | Params                     | Example                           |
+|----------------|----------------------------|-----------------------------------|
+| search         | `query: str`, `limit: int` | `track.get('some query', 5)`      |
+| get            | `trackID: str`             | `track.get('some-id')`            |
+| audio_features | `trackID: str`             | `track.audio_features('some-id')` |
+| audio_analysis | `trackID: str`             | `track.audio_analysis('some-id')  |
