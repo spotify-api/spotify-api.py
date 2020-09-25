@@ -42,6 +42,11 @@ Track class will let you to find, get and configure your search. You have to loa
 First define tracks if needed
 ```py
 track = client.track
+
+# or
+
+from spotifyapi.Track import Track
+track = Track('some-token')
 ```
 
 ### Functions
