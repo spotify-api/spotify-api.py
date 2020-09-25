@@ -58,24 +58,25 @@ track = Track('some-token')
 | audio_features | `trackID: str`                   | `track.audio_features('some-id')` |
 | audio_analysis | `trackID: str`                   | `track.audio_analysis('some-id')` |
 
-## Track Class 
-Track class will let you to find, get and configure your search. You have to load `client`. Example given above 
+## Artist Class 
+Artist class will let you to find, get and configure your search. You have to load `client`. Example given above 
 
-First define tracks if needed
+First define artist if needed
 ```py
-track = client.track
+artist = client.artist
 
 # or
 
-from spotifyapi.Track import Track
-track = Track('some-token')
+from spotifyapi.Artist import Artist
+artist = Artist('some-token')
 ```
 
 ### Functions
 
-| Name           | Params                           | Example                           |
-|----------------|----------------------------------|-----------------------------------|
-| search         | `query: str`, `limit: int`       | `track.get('some query', 5)`      |
-| get            | `trackID: str`, `advanced: bool` | `track.get('some-id')`            |
-| audio_features | `trackID: str`                   | `track.audio_features('some-id')` |
-| audio_analysis | `trackID: str`                   | `track.audio_analysis('some-id')` |
+| Name           | Params                       | Example                             |
+|----------------|------------------------------|-------------------------------------|
+| search         | `query: str`, `limit: int`   | `artist.get('some query', 5)`       |
+| get            | `artistID: str`              | `artist.get('some-id')`             |
+| albums         | `artistID: str`, `limit: int`| `artist.albums('some-id',5)`        |
+| top_tracks     | `artistID: str`              | `artist.top_tracks('some-id')`      |
+| related_artists| `artistID: str`              | `artist.related_artists('some id')` |
