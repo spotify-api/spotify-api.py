@@ -1,6 +1,8 @@
+# Import Packages
 import requests
-from .Util import b64, AttrDict
+from .Util import b64
 
+# Read Class
 class Auth():
 
   def __init__(self, oauth: str):
@@ -19,4 +21,4 @@ class Auth():
         'grant_type': 'client_credentials'
       },
       headers=header
-    ).json()['access_token']
+    ).json()
