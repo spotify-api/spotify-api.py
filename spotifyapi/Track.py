@@ -12,8 +12,8 @@ class Track():
     link = 'https://api.spotify.com/v1/search'
     header = {'Authorization': 'Bearer ' + self.token}
 
-    if limit not in range(50):
-      raise TypeError('limit must be under 50')
+    if limit >= 50:
+      raise ValueError('limit must be under 50')
 
     return requests.request(
       'GET',
