@@ -1,6 +1,8 @@
+# Import Packages
 import requests
 from .Util import encodeURIComponent
 
+# Artist Class
 class Artist():
 
   def __init__(self, token: str):
