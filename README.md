@@ -51,9 +51,31 @@ track = Track('some-token')
 
 ### Functions
 
-| Name           | Params                     | Example                           |
-|----------------|----------------------------|-----------------------------------|
-| search         | `query: str`, `limit: int` | `track.get('some query', 5)`      |
-| get            | `trackID: str`             | `track.get('some-id')`            |
-| audio_features | `trackID: str`             | `track.audio_features('some-id')` |
-| audio_analysis | `trackID: str`             | `track.audio_analysis('some-id')` |
+| Name           | Params                           | Example                           |
+|----------------|----------------------------------|-----------------------------------|
+| search         | `query: str`, `limit: int`       | `track.get('some query', 5)`      |
+| get            | `trackID: str`, `advanced: bool` | `track.get('some-id')`            |
+| audio_features | `trackID: str`                   | `track.audio_features('some-id')` |
+| audio_analysis | `trackID: str`                   | `track.audio_analysis('some-id')` |
+
+## Track Class 
+Track class will let you to find, get and configure your search. You have to load `client`. Example given above 
+
+First define tracks if needed
+```py
+track = client.track
+
+# or
+
+from spotifyapi.Track import Track
+track = Track('some-token')
+```
+
+### Functions
+
+| Name           | Params                           | Example                           |
+|----------------|----------------------------------|-----------------------------------|
+| search         | `query: str`, `limit: int`       | `track.get('some query', 5)`      |
+| get            | `trackID: str`, `advanced: bool` | `track.get('some-id')`            |
+| audio_features | `trackID: str`                   | `track.audio_features('some-id')` |
+| audio_analysis | `trackID: str`                   | `track.audio_analysis('some-id')` |
