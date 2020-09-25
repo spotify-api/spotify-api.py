@@ -100,4 +100,23 @@ artist = Album('some-token')
 |----------------|------------------------------|-----------------------------------------|
 | search         | `query: str`, `limit: int`   | `album.search('some query', 5)`         |
 | get            | `albumID: str`               | `album.get('some-id', 5)`               |
-| get_tracks     | `albumID: str`, `limit: int` | `album.get_tracks('some-id', 5)`     |
+| get_tracks     | `albumID: str`, `limit: int` | `album.get_tracks('some-id', 5)`        |
+
+## User Class 
+Album class will let you to find, get and configure your search with users. You have to load `client`. Example given above 
+
+First define user if needed
+```py
+user = client.user
+
+# or
+
+from spotifyapi.User import User
+user = User('some-token')
+```
+
+### Functions
+
+| Name           | Params                       | Example                                 |
+|----------------|------------------------------|-----------------------------------------|
+| get            | `userID: str`                | `user.get('some-id')`                   |
