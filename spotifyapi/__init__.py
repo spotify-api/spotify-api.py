@@ -1,11 +1,19 @@
-from .Util import AttrDict as objectify
+"""
+Spotify-Api.py
 
+Simple Spotify Wrapper written in python
+By abh80 and science spot(scientific-guy)
+v0.0.1 MIT License
+"""
+
+# Import all lib files
 from .Oauth import Auth
 from .Track import Track
 from .Artist import Artist
 from .User import User
 from .Album import Album
 
+# Client Class
 class Client():
 
   def __init__(self, token:str):
@@ -16,4 +24,5 @@ class Client():
     self.user = User(self.token)
     self.album = Album(self.token)
 
+# Version v0.0.1
 __version__ = '0.0.1'
