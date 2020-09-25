@@ -120,3 +120,10 @@ user = User('some-token')
 | Name           | Params                       | Example                                 |
 |----------------|------------------------------|-----------------------------------------|
 | get            | `userID: str`                | `user.get('some-id')`                   |
+
+# Support 
+
+So, hey facing troubles? We have some ways you to support you!
+
+- [Discord Support Server](https://discord.gg/FrduEZd)
+- [GitHub Repo](https://github.com/spotify-api/spotify-api.py/)
