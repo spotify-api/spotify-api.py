@@ -37,20 +37,15 @@ print(my_auth['access_token']) # Will print token. If you find errors, you can c
 ```
 
 ## Track Class 
-The Track class has 4 functions which are listed below the codeblock -
-- Getting the **Track** class - 
-```py
-from spotifyapi import Client
+Track class will let you to find, get and configure your search. You have to load `client`. Example given above 
 
-client = Client(
-  token='NO TOKEN' # Leave it like this
-)
-client.track; # here you will be able to access the track class!!
+First define tracks if needed
+```py
+track = client.track
 ```
+
 ### Functions
-Here is a quick example of some functions of the **Track** class.
-```py
-client.track.search("song",1) # searching for song the second param is the limit
 
-client.track.get('songid',true) # getting a song from track id using the advanced method
-```
+| Name      | Params                     | Example                           |
+|-----------|----------------------------|-----------------------------------|
+| search    | `query: str`, `limit: int` | `track.get('some query', 5)       |
