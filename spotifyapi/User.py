@@ -1,5 +1,7 @@
+# Import Packages
 import requests
 
+# User Class
 class User():
 
   def __init__(self, token: str):
