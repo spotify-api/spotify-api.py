@@ -51,4 +51,4 @@ track = client.track
 | search         | `query: str`, `limit: int` | `track.get('some query', 5)`      |
 | get            | `trackID: str`             | `track.get('some-id')`            |
 | audio_features | `trackID: str`             | `track.audio_features('some-id')` |
-| audio_analysis | `trackID: str`             | `track.audio_analysis('some-id')  |
+| audio_analysis | `trackID: str`             | `track.audio_analysis('some-id')` |
