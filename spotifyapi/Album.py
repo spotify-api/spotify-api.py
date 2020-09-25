@@ -1,6 +1,8 @@
+# Import Packages
 import requests
 from .Util import encodeURIComponent
 
+# Album Class
 class Album():
 
   def __init__(self, token: str):
