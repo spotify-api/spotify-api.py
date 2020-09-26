@@ -127,9 +127,3 @@ So, hey facing troubles? We have some ways you to support you!
 
 - [Discord Support Server](https://discord.gg/FrduEZd)
 - [GitHub Repo](https://github.com/spotify-api/spotify-api.py/)
-
-## Things to be updated
-
-- Make Errors when Spotify Api responses with bad response
-
-Thing to be updated will be updated in next version...
