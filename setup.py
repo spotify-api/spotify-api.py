@@ -1,5 +1,5 @@
 from setuptools import setup
-
+    
 def readme():
     with open('README.md') as f:
         README = f.read()
@@ -7,7 +7,7 @@ def readme():
 
 setup(
     name="spotify-api.py",
-    version="0.0.1",
+    version="0.0.2",
     url="https://github.com/spotify-api/spotify-api.py",
     description="A simple wrapper for spotify api written in python!",
     long_description=readme(),
