@@ -10,7 +10,7 @@ class Album():
         self.token = token
 
     def search(self, query: str, limit: int = 1):
-        if limit >= 50:
+        if not 0 < limit < 50:
             raise LimitOutOfRangeError('limit must be under 50')
 
         return requests.request(
@@ -33,7 +33,7 @@ class Album():
         ).json()
 
     def get_tracks(self, albumID: str, limit: int = 1):
-        if limit >= 50:
+        if not 0 < limit < 50:
             raise LimitOutOfRangeError('limit must be under 50')
 
         return requests.request(
