@@ -1,7 +1,7 @@
 # Import Packages
 from .Util import encodeURIComponent
 import requests
-from .exceptions import LimitOutOfRangeError
+from .exceptions import LimitOutOfRangeError, InvalidTrackIdError
 
 # Track Class
 class Track():
@@ -50,7 +50,7 @@ class Track():
     header = {'Authorization': 'Bearer ' + self.token}
 
     if ' ' in [char for char in trackID]:
-      raise TypeError('invalid track id provided')
+      raise InvalidTrackIdError("Invalid track has been provided.")
 
     link = 'https://api.spotify.com/v1/audio-features/' + trackID
 
@@ -64,7 +64,7 @@ class Track():
     header = {'Authorization': 'Bearer ' + self.token}
 
     if ' ' in [char for char in trackID]:
-      raise TypeError('invalid track id provided')
+      raise InvalidTrackIdError("Invalid track has been provided.")
 
     link = 'https://api.spotify.com/v1/audio-analysis/' + trackID
     
