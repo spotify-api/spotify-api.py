@@ -3,7 +3,7 @@ Spotify-Api.py
 
 Simple Spotify Wrapper written in python
 By abh80 and science spot(scientific-guy)
-v0.0.1 MIT License
+v0.0.2 MIT License
 """
 
 # Import all lib files
@@ -16,13 +16,13 @@ from .Album import Album
 # Client Class
 class Client():
 
-  def __init__(self, token:str):
-    self.token = token
-    self.oauth = Auth(self.token)
-    self.track = Track(self.token)
-    self.artist = Artist(self.token)
-    self.user = User(self.token)
-    self.album = Album(self.token)
+    def __init__(self, token:str):
+        self.token = token
+        self.oauth = Auth(self.token)
+        self.track = Track(self.token)
+        self.artist = Artist(self.token)
+        self.user = User(self.token)
+        self.album = Album(self.token)
 
-# Version v0.0.1
-__version__ = '0.0.1'
+# Version v0.0.2
+__version__ = '0.0.2'
