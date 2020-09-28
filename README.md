@@ -2,6 +2,13 @@
 
 Simple wrapper for Spotify api written in python by the [@spotify-api](https://github.com/spotify-api) Organization!
 
+# Support
+
+So, hey facing troubles? We have some ways you to support you!
+
+- [Discord Support Server](https://discord.gg/FrduEZd)
+- [GitHub Repo](https://github.com/spotify-api/spotify-api.py/)
+
 # Quick Docs
 
 ## Client Class
@@ -149,10 +156,3 @@ playlist = Playlist('some-token')
 | ------ | ------------------------------- | -------------------------------|
 | get    | `playlistID: str`               | `playlist.get('some-id')`      |
 | tracks | `playlistID: str`, `limit: int` | `playlist.tracks('some-id',5)` |
-
-# Support
-
-So, hey facing troubles? We have some ways you to support you!
-
-- [Discord Support Server](https://discord.gg/FrduEZd)
-- [GitHub Repo](https://github.com/spotify-api/spotify-api.py/)
