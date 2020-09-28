@@ -2,6 +2,13 @@
 
 ---
 
+## v0.0.3 - Stable Update Version
+
+- Clean Codes
+- Added Playlist Search
+
+---
+
 ## v0.0.2 - Stable Version
 
 - Custom Exceptions
