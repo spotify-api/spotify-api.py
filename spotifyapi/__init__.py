@@ -15,8 +15,6 @@ from .Album import Album
 from .Playlist import Playlist
 
 # Client Class
-
-
 class Client():
 
     def __init__(self, token: str):
