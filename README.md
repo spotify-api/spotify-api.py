@@ -145,10 +145,10 @@ playlist = Playlist('some-token')
 
 ### Functions
 
-| Name   | Params                          | Example                       |
-| ------ | ------------------------------- | ----------------------------- |
-| get    | `PlaylistID: str`               | `playlist.get('some-id')`     |
-| tracks | `PlaylistID: str`, `limit: int` | `playlist.tracks('some-id',5) |
+| Name   | Params                          | Example                        |
+| ------ | ------------------------------- | -------------------------------|
+| get    | `playlistID: str`               | `playlist.get('some-id')`      |
+| tracks | `playlistID: str`, `limit: int` | `playlist.tracks('some-id',5)` |
 
 # Support
 
