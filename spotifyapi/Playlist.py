@@ -4,8 +4,6 @@ from .Exception import *
 import requests
 
 # Playlist Class
-
-
 class Playlist():
     def __init__(self, token: str):
         self.token = token
@@ -13,9 +11,11 @@ class Playlist():
     def get(self, PlaylistID: str):
         return requests.request(
             'GET',
-            'https://api.spotify.com/v1/playlists/' + PlaylistID + "?market=US",
-            headers={'Authorization': 'Bearer ' + self.token
-                     }
+            'https://api.spotify.com/v1/playlists/' + PlaylistID,
+            headers={'Authorization': 'Bearer ' + self.token},
+            params={
+                'market': 'US'
+            }
         ).json()
 
     def tracks(self, PlaylistID: str, limit: int = 1):
@@ -24,6 +24,10 @@ class Playlist():
         return requests.request(
             'GET',
             'https://api.spotify.com/v1/playlists/' + PlaylistID +
-            "/tracks?market=US&limit=" + str(limit),
-            headers={'Authorization': 'Bearer ' + self.token}
+            "/tracks,
+            headers={'Authorization': 'Bearer ' + self.token},
+            params={
+                'market': 'US',
+                'limit': limit
+            }
         ).json()
