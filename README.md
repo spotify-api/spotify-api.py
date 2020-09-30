@@ -1,6 +1,12 @@
-# Spotify-Api.py
-
-Simple wrapper for Spotify api written in python by the [@spotify-api](https://github.com/spotify-api) Organization!
+<div align="center">
+  <img src="https://github.com/Scientific-Guy/decimaldev/blob/master/assets/Spotify-api.png?raw=true">
+  <div>
+    <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/l/spotify-api.py?label=License&style=for-the-badge"></a>
+    <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/v/spotify-api.py?label=Version&style=for-the-badge"></a>
+    <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/format/spotify-api.py?label=Format&style=for-the-badge"></a>
+    <a href="https://github.com/spotify-api/spotify-api.py/"><img src="https://img.shields.io/github/repo-size/scientific-guy/spotify-api.py?label=Size&style=for-the-badge"></a>
+  </div><br>
+</div>
 
 # Support
 
