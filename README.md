@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/736466510888960020/760853915876327464/Sa.png?width=1018&height=475"><br>
+  <img src="https://media.discordapp.net/attachments/736466510888960020/760853915876327464/Sa.png?width=918&height=375"><br>
   <div>
     <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/l/spotify-api.py?label=License&style=for-the-badge"></a>
     <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/v/spotify-api.py?label=Version&style=for-the-badge"></a>
