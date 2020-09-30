@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/Scientific-Guy/decimaldev/blob/master/assets/Spotify-api.png?raw=true"><br>
+  <img src="https://media.discordapp.net/attachments/708642239441666079/760851555599122456/Spotify-api.png?width=1026&height=311"><br>
   <div>
     <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/l/spotify-api.py?label=License&style=for-the-badge"></a>
     <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/v/spotify-api.py?label=Version&style=for-the-badge"></a>
