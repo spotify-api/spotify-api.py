@@ -5,6 +5,7 @@
     <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/v/spotify-api.py?label=Version&style=for-the-badge"></a>
     <a href="https://pypi.org/project/spotify-api.py/"><img src="https://img.shields.io/pypi/format/spotify-api.py?label=Format&style=for-the-badge"></a>
     <a href="https://github.com/spotify-api/spotify-api.py/"><img src="https://img.shields.io/github/repo-size/scientific-guy/spotify-api.py?label=Size&style=for-the-badge"></a>
+    <a href="https://discord.gg/FrduEZd"><img src="https://img.shields.io/discord/736099894963601438?label=Discord&style=for-the-badge"></a>
   </div><br>
 </div>
 
