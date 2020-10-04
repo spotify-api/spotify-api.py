@@ -21,10 +21,10 @@ class Playlist():
     def tracks(self, PlaylistID: str, limit: int = 1):
         if not 0 < limit < 50:
             raise LimitOutOfRangeError('limit must be under 50')
+        
         return requests.request(
             'GET',
-            'https://api.spotify.com/v1/playlists/' + PlaylistID +
-            "/tracks,
+            'https://api.spotify.com/v1/playlists/' + PlaylistID + '/tracks',
             headers={'Authorization': 'Bearer ' + self.token},
             params={
                 'market': 'US',
