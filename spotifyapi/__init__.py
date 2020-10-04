@@ -7,7 +7,7 @@ v0.0.4 MIT License
 """
 
 # Import all lib files
-from .Oauth import Auth
+from .Oauth import Auth 
 from .Track import Track
 from .Artist import Artist
 from .User import User
