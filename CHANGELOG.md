@@ -2,6 +2,13 @@
 
 ---
 
+## v0.0.4 - Stable Dev Version
+
+- Added search, shows, episodes, browse class
+- Fixed playlist class error
+
+---
+
 ## v0.0.3 - Stable Update Version
 
 - Clean Codes

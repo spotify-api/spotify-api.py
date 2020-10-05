@@ -12,3 +12,9 @@ class LimitOutOfRangeError(SpotifyApiError):
 
     def __init__(self, message):
         super().__init__(message)
+
+# Invalid Method error
+class InvalidMethodError(SpotifyApiError):
+
+    def __init__(self, message):
+        super().__init__(message)
