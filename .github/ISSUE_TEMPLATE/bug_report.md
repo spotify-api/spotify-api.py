@@ -4,8 +4,15 @@ about: Create a report to help us improve
 
 ---
 
+# Bug Report
+
+## My version of spotify-api.py
 <!-- What version are you using? -->
 
-<!-- What kind of bug is it -->
+## What i expected...
+<!-- Describe that what you expected to happen? -->
 
-<!-- Describe your bug in brief -->
+## But what happened is...
+<!-- Describe what happened instead of your expected thing -->
+
+<!-- It will be good if you post your code where you found the bug or upload a photo which can help the team to clear your problem quickly! -->
