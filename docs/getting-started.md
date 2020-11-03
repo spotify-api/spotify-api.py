@@ -10,3 +10,4 @@ client = Client(
   token='your-token'
 )
 ```
+This `client` will be used throughout the docs!
