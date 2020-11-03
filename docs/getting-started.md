@@ -8,4 +8,5 @@ from spotifyapi import Client
 
 client = Client(
   token='your-token'
-)```
+)
+```
