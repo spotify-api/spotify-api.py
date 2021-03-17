@@ -9,6 +9,8 @@
   </div><br>
 </div>
 
+> This package is broken. This will be fixed near April 2021...
+
 # Support
 
 So, hey facing troubles? We have some ways you to support you!
