@@ -32,6 +32,16 @@ class Album():
             headers={'Authorization': 'Bearer ' + self.token}
         ).json()
 
+    def get_multiple(self, albumIDs: list): 
+        return requests.request(
+            'GET',
+            'https://api.spotify.com/v1/albums',
+            headers={'Authorization': 'Bearer ' + self.token},
+            params={
+                'ids': albumIDs
+            }
+        ).json()
+
     def get_tracks(self, albumID: str, limit: int = 1):
         if not 0 < limit < 50:
             raise LimitOutOfRangeError('limit must be under 50')
